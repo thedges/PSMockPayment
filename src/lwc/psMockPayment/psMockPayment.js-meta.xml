@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="payment" type="String" label="Payment Amount" description="Payment amount" />
+        </targetConfig>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="payment" type="String" label="Payment Amount" description="Payment amount" role="inputOnly" />
+            <property name="transactionId" type="String" label="Transaction ID" description="Transaction Id" role="outputOnly" />
+            <property name="transactionMsg" type="String" label="Transaction Msg" description="Transaction Msg" role="outputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
