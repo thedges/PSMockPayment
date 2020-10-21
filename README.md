@@ -8,7 +8,7 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
 ## Flow Parameters
 
 | Parameter  | Type | Direction | Definition |
-| ------------- | ------------- |------------- |
+| ------------- | -------------| ---------- |------------- |
 | Payment | Text | Input | The payment amount. |
 | Transaction ID | Text | Output | A simulated transaction id value that you can store on a record. |
 | Transaction Msg| Text | Output | A simulate transaction status message. |
@@ -19,7 +19,7 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
   
 1. Install the component per the **Deploy to Salesforce** button below
 2. Assign the **PSMockPayment** permission set to whatever user needs access to this component.
-3. Create a flow and add the PSMockPayment component to a screen. 
+3. Create a flow and add the "psMockPayment" component to a screen. 
    * Use one variable to provide a payment amount to the component.
    * Create two variables to capture the transaction id and message to store on a record.
   
