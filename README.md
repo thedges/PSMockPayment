@@ -3,7 +3,7 @@ THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/
 
 This is dummy component specifically used in Salesforce Flow to simulate a payment. Just add it to flow screen, provide input variable for the amount of payment, and it will return a transaction id and message that you can store on record. Here is snapshot of the screen. 
 
-![alt text](https://github.com/thedges/PSMockPayment/blob/master/PSMockPayment.png "PSMockPayment")
+![alt text](https://github.com/thedges/PSMockPayment/blob/main/PSMockPayment.png "PSMockPayment")
 
 ## Flow Parameters
 
