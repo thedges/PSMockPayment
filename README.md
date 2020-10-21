@@ -5,7 +5,7 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
 
 ![alt text](https://github.com/thedges/PSMockPayment/blob/master/PSMockPayment.png "PSMockPayment")
 
-**Flow Parameters
+## Flow Parameters
 
 | Parameter  | Type | Direction | Definition |
 | ------------- | ------------- |------------- |
