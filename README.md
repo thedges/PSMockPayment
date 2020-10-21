@@ -7,7 +7,7 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
 
 **Flow Parameters
 
- Parameter  | Type | Direction | Definition |
+| Parameter  | Type | Direction | Definition |
 | ------------- | ------------- |------------- |
 | Payment | Text | Input | The payment amount. |
 | Transaction ID | Text | Output | A simulated transaction id value that you can store on a record. |
