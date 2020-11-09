@@ -24,7 +24,7 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
    * Create two variables to capture the transaction id and message to store on a record.
 4. In the actual flow at runtime, just click the "Pay ..." button and it will show a confirmation message. That's it!
   
-<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/thedges/PSMockPayment">
+<a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
