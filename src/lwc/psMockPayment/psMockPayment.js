@@ -5,6 +5,8 @@ import makePayment from '@salesforce/apex/PSMockPaymentController.makePayment';
 
 export default class PsMockPayment extends LightningElement {
   @api payment = 50;
+  @api symbol = '$';
+  @api after = false;
   @api transactionId;
   @api transactionMsg;
 
@@ -14,8 +16,21 @@ export default class PsMockPayment extends LightningElement {
     return APP_RESOURCES + '/check.png';
   }
 
+  @api get payAmount() {
+    console.log('after=' + this.after);
+
+    if (this.after) {
+      return this.payment + this.symbol;
+    }
+    else
+    {
+      return this.symbol + this.payment;
+    }
+  }
+
   connectedCallback () {
     var self = this;
+
 
     Promise.all ([
       loadStyle (this, APP_RESOURCES + '/bootstrap.min.css'),

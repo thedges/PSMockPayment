@@ -15,7 +15,7 @@
         </ul>
         
         <template if:true={showPayment}>
-          <p class="alert alert-success">Payment of ${payment} successful!</p>
+          <p class="alert alert-success">Payment of {payAmount} successful!</p>
         </template>
         
         <div class="tab-content">
@@ -57,7 +57,7 @@
                     </div> <!-- form-group.// -->
                 </div>
             </div> <!-- row.// -->
-            <button class="subscribe btn btn-primary btn-block" type="button" onclick={handlePayment}> Pay ${payment}  </button>
+            <button class="subscribe btn btn-primary btn-block" type="button" onclick={handlePayment}> Pay {payAmount}  </button>
             </form>
         </div> <!-- tab-pane.// -->
         <div class="tab-pane fade nav-tab-paypal" >
@@ -85,7 +85,7 @@
                 <div class="slds-p-bottom_small slds-align_absolute-center">
                     <img src={checkImage}></img>
                 </div>
-                <button class="subscribe btn btn-primary btn-block" type="button" onclick={handlePayment}> Pay ${payment}  </button>
+                <button class="subscribe btn btn-primary btn-block" type="button" onclick={handlePayment}> Pay {payAmount}  </button>
                 </form>
         </div> <!-- tab-pane.// -->
         </div> <!-- tab-content .// -->

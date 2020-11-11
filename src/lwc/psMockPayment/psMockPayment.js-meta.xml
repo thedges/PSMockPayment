@@ -8,12 +8,16 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="payment" type="String" label="Payment Amount" description="Payment amount" />
+            <property name="payment" type="String" label="Payment Amount" description="Payment amount"/>
+            <property name="symbol" type="String" label="Currency Symbol" description="Currency symbol" />
+            <property name="after" type="Boolean" label="Place Symbol After Amount" description="Place symbol after amount" />
         </targetConfig>
         <targetConfig targets="lightning__FlowScreen">
-            <property name="payment" type="String" label="Payment Amount" description="Payment amount" role="inputOnly" />
-            <property name="transactionId" type="String" label="Transaction ID" description="Transaction Id" role="outputOnly" />
-            <property name="transactionMsg" type="String" label="Transaction Msg" description="Transaction Msg" role="outputOnly" />
+            <property name="payment" type="String" label="Payment Amount" description="Payment amount" role="inputOnly"/>
+            <property name="symbol" type="String" label="Currency Symbol" description="Currency symbol" role="inputOnly"/>
+            <property name="after" type="Boolean" label="Place Symbol After Amount" description="Place symbol after amount" role="inputOnly"/>
+            <property name="transactionId" type="String" label="Transaction ID" description="Transaction Id" role="outputOnly"/>
+            <property name="transactionMsg" type="String" label="Transaction Msg" description="Transaction Msg" role="outputOnly"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
