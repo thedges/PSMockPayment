@@ -10,6 +10,8 @@ This is dummy component specifically used in Salesforce Flow to simulate a payme
 | Parameter  | Type | Direction | Definition |
 | ------------- | -------------| ---------- |------------- |
 | Payment | Text | Input | The payment amount. |
+| Currency Symbol | Text | Input | The currency symbol. |
+| Symbol After Curreny | Boolean | Input | Place symbol after currency amount. |
 | Transaction ID | Text | Output | A simulated transaction id value that you can store on a record. |
 | Transaction Msg| Text | Output | A simulate transaction status message. |
 
