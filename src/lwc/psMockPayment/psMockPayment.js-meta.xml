@@ -5,9 +5,16 @@
     <targets>
         <target>lightning__RecordPage</target>
         <target>lightning__FlowScreen</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
+            <property name="payment" type="String" label="Payment Amount" description="Payment amount"/>
+            <property name="symbol" type="String" label="Currency Symbol" description="Currency symbol" />
+            <property name="after" type="Boolean" label="Place Symbol After Amount" description="Place symbol after amount" />
+        </targetConfig>
+        <targetConfig targets="lightningCommunity__Default">
             <property name="payment" type="String" label="Payment Amount" description="Payment amount"/>
             <property name="symbol" type="String" label="Currency Symbol" description="Currency symbol" />
             <property name="after" type="Boolean" label="Place Symbol After Amount" description="Place symbol after amount" />
